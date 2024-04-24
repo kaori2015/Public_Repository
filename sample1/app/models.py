@@ -1,0 +1,7 @@
+# myapp/models.py
+from django.contrib.auth.models import AbstractUser
+from django.db import models
+
+class CustomUser(AbstractUser):
+    # 追加のフィールドをここに定義します
+    pass
